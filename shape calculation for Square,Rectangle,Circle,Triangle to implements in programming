@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc =new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        int d = sc.nextInt();
+        int e = sc.nextInt();
+        int f = sc.nextInt();
+        System.out.println("Area of Square="+(a*a));
+        System.out.println("Area of Rectangle="+(b*c));
+        System.out.printf("Area of Circle=%.2f\n",Math.floor((Math.PI*d*d)*100)/100);
+        System.out.printf("Area of Triangle=%d\n",(e*f)/2);
+    }
+}
