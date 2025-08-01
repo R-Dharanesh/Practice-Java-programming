@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String a = sc.next();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        int d = sc.nextInt();
+        int e = sc.nextInt();
+        int f = sc.nextInt();
+        int g=(b+c+d+e+f);
+        float h= (float)g/5;
+        System.out.println("Name of the Student:"+a);
+        System.out.println("Total marks:"+g);
+        System.out.printf("Average marks:%.1f\n",h);
+    }
+}
